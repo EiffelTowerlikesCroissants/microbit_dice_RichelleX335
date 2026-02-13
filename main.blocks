@@ -1,37 +1,37 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="RMV7ktv_DCP`TE5@16d=">list</variable><variable id="1)QR#8ziMl$=_j^{VI~b">myImage</variable></variables><block type="function_definition" id="iyIq(s+R?p+waOR)+Uia" x="-526" y="-36"><mutation name="SetDicePattern" functionid="hW#7;PAo,=b%,OK[$||y"></mutation><field name="function_name">SetDicePattern</field><statement name="STACK"><block type="variables_set" id="/*2e.M)E^]PFwWPNtf/z"><field name="VAR" id="RMV7ktv_DCP`TE5@16d=">list</field><value name="VALUE"><block type="lists_create_with" id="Je.v@oKaM%iJ8_gse`(v" inline="false"><mutation items="6" horizontalafter="3"></mutation><value name="ADD0"><shadow type="math_number" id="O]*!lGz1}VS:KNz7~T:i"><field name="NUM">0</field></shadow><block type="device_build_image" id="kD5~r639=6O=+vV}.RVQ"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="RMV7ktv_DCP`TE5@16d=">list</variable><variable id="1)QR#8ziMl$=_j^{VI~b">myImage</variable></variables><block type="function_definition" id="Og*jw4U7sQSn@W{6Kp@5" x="-526" y="-36"><mutation name="SetDicePattern" functionid="hW#7;PAo,=b%,OK[$||y"></mutation><field name="function_name">SetDicePattern</field><statement name="STACK"><block type="variables_set" id="|kxeY#f0K_FL4jaH#_/m"><field name="VAR" id="RMV7ktv_DCP`TE5@16d=">list</field><value name="VALUE"><block type="lists_create_with" id="QvGcH1Em5F8F{heE(SP5" inline="false"><mutation items="6" horizontalafter="3"></mutation><value name="ADD0"><shadow type="math_number" id="y[wOY@[M.]S?ojrTT@3c"><field name="NUM">0</field></shadow><block type="device_build_image" id="VE~wDL]hsFD(XUlI[PJk"><field name="LEDS">`
         . . . . . 
         . . . . . 
         . . # . . 
         . . . . . 
         . . . . .
-        `</field></block></value><value name="ADD1"><shadow type="math_number" id="4MgjU-IdtNDyl3gZlH#O"><field name="NUM">0</field></shadow><block type="device_build_image" id="xZQU0h.`Xp8FZa-7u6cX"><field name="LEDS">`
+        `</field></block></value><value name="ADD1"><shadow type="math_number" id="O`tMDmR2|-@,MjUM)9bj"><field name="NUM">0</field></shadow><block type="device_build_image" id=",[cn8Xfx55Ljd=a)R;O+"><field name="LEDS">`
         . . . . . 
         . . . # . 
         . . . . . 
         . # . . . 
         . . . . .
-        `</field></block></value><value name="ADD2"><shadow type="math_number" id="Jc/_9^T4(aUGaX1=i_P$"><field name="NUM">0</field></shadow><block type="device_build_image" id="zpr8|N`2ZbtLRPtf+T[-"><field name="LEDS">`
+        `</field></block></value><value name="ADD2"><shadow type="math_number" id="pHo]FawLJOE#f}YopV?M"><field name="NUM">0</field></shadow><block type="device_build_image" id="*T$r[3VI+`O{XuY`;U@J"><field name="LEDS">`
         . . . . . 
         . . . # . 
         . . # . . 
         . # . . . 
         . . . . .
-        `</field></block></value><value name="ADD3"><shadow type="math_number" id=";,!A}tY|_QXK9fpd5(0H"><field name="NUM">0</field></shadow><block type="device_build_image" id="6bO;5}o{HCtTYu8Px61E"><field name="LEDS">`
+        `</field></block></value><value name="ADD3"><shadow type="math_number" id="51lZ1~m_yttlBN59F8%O"><field name="NUM">0</field></shadow><block type="device_build_image" id="6?0!1SQg,93U)zgm[9C:"><field name="LEDS">`
         . . . . . 
         . # . # . 
         . . . . . 
         . # . # . 
         . . . . .
-        `</field></block></value><value name="ADD4"><shadow type="math_number" id="5Lf.x9!uksI8AE,oA0R]"><field name="NUM">0</field></shadow><block type="device_build_image" id="hegG3DS6r[E_9BM/m?]("><field name="LEDS">`
+        `</field></block></value><value name="ADD4"><shadow type="math_number" id="P!)(6HZdosJKl/4aaPp["><field name="NUM">0</field></shadow><block type="device_build_image" id="g$Nym#oGqn}4rw*|k3AC"><field name="LEDS">`
         . . . . . 
         . # . # . 
         . . # . . 
         . # . # . 
         . . . . .
-        `</field></block></value><value name="ADD5"><shadow type="math_number" id="DRnb6)cI/w8EeIFYr`V{"><field name="NUM">0</field></shadow><block type="device_build_image" id="yNt$wQ)!)hNc:MtG`f)="><field name="LEDS">`
+        `</field></block></value><value name="ADD5"><shadow type="math_number" id="a~/5NF}r}ZlIt+fgV/tX"><field name="NUM">0</field></shadow><block type="device_build_image" id="G,~O.b3rN4;*t:|fqnqM"><field name="LEDS">`
         . . . . . 
         . # . # . 
         . # . # . 
         . # . # . 
         . . . . .
-        `</field></block></value></block></value></block></statement></block><block type="pxt-on-start" id="Ct;QUUlED^uo(}5^#|5z" x="0" y="0"><statement name="HANDLER"><block type="function_call" id="EuQGLxlw$@;=Ri/);o1r"><mutation name="SetDicePattern" functionid="hW#7;PAo,=b%,OK[$||y"></mutation><next><block type="function_call" id="?:jfS_xObM~+kXMPR++a"><mutation name="RollDice" functionid="BUV;*1CBU9WW-MJ|BR1="></mutation></block></next></block></statement></block><block type="device_gesture_event" id="BV]pmun6[g,Nur[tAMiF" x="221" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="function_call" id="@-X}uk8qNoQI[KrcLu(+"><mutation name="RollDice" functionid="BUV;*1CBU9WW-MJ|BR1="></mutation></block></statement></block><block type="function_definition" id="})=MO$c]+.esAT#fEW7U" x="-12" y="194"><mutation name="RollDice" functionid="BUV;*1CBU9WW-MJ|BR1="></mutation><field name="function_name">RollDice</field><statement name="STACK"><block type="device_show_image_offset" id="]-E,)GZ60jO=Iy,mEuLR"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="lists_index_get" id="SuzB=0DP?;f5Bb$KZb8|"><value name="LIST"><block type="variables_get" id="9Fra=%O.mGSnfVD+]X=l"><field name="VAR" id="RMV7ktv_DCP`TE5@16d=">list</field></block></value><value name="INDEX"><shadow type="math_number" id="k4nAN.S$7}qI,P}IHRAp"><field name="NUM">0</field></shadow><block type="device_random" id="Ad.7AgDKxoPBh4fY?khq"><value name="min"><shadow type="math_number" id="uA86x?:}g$|Ujdg]|Z.l"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="CwV?hZ+MZz=rjWQJ70g{"><field name="NUM">5</field></shadow></value></block></value></block></value><value name="offset"><shadow type="math_number" id="y2{(@dszvH_qx^Ji?xp^"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="1jNLE,T0{M^vcnH)Xp7K"><field name="NUM">400</field></shadow></value></block></statement></block></xml>
+        `</field></block></value></block></value></block></statement></block><block type="pxt-on-start" id="Viu)BdIR%%]EEzOR988K" x="0" y="0"><statement name="HANDLER"><block type="function_call" id="5[!QmQs^sD6OWPY:8[Jb"><mutation name="SetDicePattern" functionid="hW#7;PAo,=b%,OK[$||y"></mutation><next><block type="function_call" id="s=U6RD!J*mHXM@db:zAt"><mutation name="RollDice" functionid="BUV;*1CBU9WW-MJ|BR1="></mutation></block></next></block></statement></block><block type="device_gesture_event" id="b?hNDklJmGlEIj#kN[s@" x="221" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="function_call" id="5?eJTlkQhSPj)0It;[;!"><mutation name="RollDice" functionid="BUV;*1CBU9WW-MJ|BR1="></mutation></block></statement></block><block type="function_definition" id="Wt`+b{X?O.nkFKn9;V~`" x="-12" y="194"><mutation name="RollDice" functionid="BUV;*1CBU9WW-MJ|BR1="></mutation><field name="function_name">RollDice</field><statement name="STACK"><block type="device_show_image_offset" id="_r8A=twwqGQxQ-J}q_1%"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="lists_index_get" id="S)d%YN}JKmyb]p?8GN:B"><value name="LIST"><block type="variables_get" id="2Sll9en*x%,YIQx@uPIT"><field name="VAR" id="RMV7ktv_DCP`TE5@16d=">list</field></block></value><value name="INDEX"><shadow type="math_number" id="5Ntl*87C/9:~BKiwRLZQ"><field name="NUM">0</field></shadow><block type="device_random" id="[JH25{p)5e^Ke/Qq0H|p"><value name="min"><shadow type="math_number" id="IuTOz-DJm:lxO5YDc@a_"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="$6jbx/(qrDU!xT)2?XzL"><field name="NUM">5</field></shadow></value></block></value></block></value><value name="offset"><shadow type="math_number" id="[XFWnt{e*s,+#EQlwdD-"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id=";B!)ITtzHR]CQR}vPy)a"><field name="NUM">400</field></shadow></value></block></statement></block></xml>
